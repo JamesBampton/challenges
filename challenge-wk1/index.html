@@ -14,7 +14,7 @@
         font-size: 14px;
         }
     header {
-        background-color: #333;
+        background-color: #bbb3c2;
         color: white;
         padding: 10px;
         text-align: center;
@@ -49,69 +49,130 @@
         padding-right: 20px;
     }
 
-      .images {
+      .images1 {
         display: inline-block;
         color: white;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 45%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right:10px;
+        border:10px solid #bbb3c2;
+        object-fit: cover;
+        border-radius: 10px;     
       
     }
-    main p{
+
+       .images2 {
+        display: inline-block;
+        color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin:0px;
+        border:10px solid #bbb3c2;
+        object-fit: cover;
+        border-radius: 10px;
+      
+    }
+
+    main p {
         background-color: #333;
         color: white;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
         font-size: 18px;
     }
-    .bio {
+    .bio-sum {
         font-style: italic;
         color: #ccc;
         text-align: center;
+        font-size: 16px;
     }
+
+    .center {
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        padding: 0px;
+        background-color: #333;
+        margin:5%
+    }
+
+     .center p {
+    
+        color: white;
+        padding: 0px;
+        background-color: #333;
+        margin-left:5%;
+        margin-right:5%;
+    }
+
+      .footsy {
+        color: rgb(148, 141, 141);
+        padding: 0px;
+        text-align: center;
+    }
+
 </style>
 
 <body>
 
     <header>
-    <h1>JAMES BAMPTON</h1>
+    <h1>JAMES BAMPTON <br><span style="color:rgb(121, 121, 202); font-size: 16px;">BSc.Hons</span></h1>
     </header>
 
     <nav>   
-        <div class="item">ABOUT</div>
-        <div class="item">PROJECTS</div>
+        <div class="item">SUMMARY</div>
+        <div class="item">INTERESTS</div>
+        <div class="item">GUITARS</div>
         <div class="item">CONTACT</div>
     </nav>
 
     <main>
         <br>
-        <p>Welcome to my portfolio! Here you can find information about me and my projects.</p>
-        <p class="bio">Feel free to explore and learn more about my work.</p>
-        <div>
-          <h2 style="text-align: center; color:orange">Summary</h2>
-          <p style="font-size: 16px ;";>A degree qualified, DIY and renovation enthusiast with a building trade background and a portfolio highlighting a variety of skills obtained over two decades renovating properties in the UK and France. 
+        <p class="bio-sum">Welcome to my portfolio! Here you can find information about me and my Hofners.</p>
+        
+        <div class="center">
+          <h2 style="text-align: center; color:rgb(121, 121, 202)">Summary</h2>
+          <p style="font-size: 16px;">A degree qualified, DIY and renovation enthusiast with a building trade background and a portfolio highlighting a variety of skills obtained over two decades within the IT industry and renovating properties in the UK and France. 
             My first ever job was building and installing fireplaces in materials such as Slate, Marble, Stone, Brick and Granite. I decided to re-educate and studied for a Degree in
-            Computing at Portsmouth University. After completing my degree I went straight into a job at IBM. During this 25 year period at IBM, my passion for building never left me, I have renovateed multiple home and helpd friends and family
-            with various jobs. I have now decided to offer my services to others. My aim is to assist with the small jobs around the home. 
-            While larger, more complex jobs are not off the table. Whatever the job, however small, im happy to help.</p>
-            <br>
+            Computing at Portsmouth University. After completing my degree I went straight into a job at IBM. During this 25 year period at IBM, my passion for building never left me. My currnet focus is on learning how to code properly and swing into a career as a full stack
+            developer.
+           </p></div>
           
-        <div>
-          <h2 style="text-align: center; color:orange">Interests</h2>
+        <div class="center">
+          <h2 style="text-align: center; color:rgb(121, 121, 202)">Interests</h2>
           <p style="font-size: 16px;";>In my spare time, I keep fit by attending running classes, boxfit classes and gym work. I enjoy music both listening and playing the guitar in a band. I have also restored a classic mini and enjoy tinkering around under the bonnet.
             I am very interested in graphics design and web design, I designed and created this website and all the graphics and icons within.
           </p>
 
+        <div class="center">
+          <h2 style="text-align: center; color:rgb(121, 121, 202)">Guitars</h2>
+          <p style="font-size: 16px;";>Check out these beautiful Hofner guitars that I have restored. 
+            I have a passion for theis style of guitar, know as "Arch Top".Each guitar has its own unique character and sound, making them a joy to play.
+          </p></div>
 
-    <div class="images"><img src="images/guitar1.png" alt="guitar1"></div>
-    <div class="images"><img src="images/guitar2.png" alt="guitar2"></div> 
-    </main>
+
+    <div class="images1"><img src="images/loft-7.png" alt="Hofner455"></div>
+    <div class="images2"><img src="images/loft-7.png" alt="Hofner Black Beauty"></div> 
     
-    <section></section>
+</main>
+    
+    <section>
+        <div class="center">
+                      <h2 style="text-align: center; color:rgb(121, 121, 202)">Contact</h2>
+          <p style="font-size: 16px;">Please feel free to email by competing the following form.
+           </p></div>
+
+    </section>
 
     <article></article>
     
-    <footer></footer>
+    <footer class="footsy">
+
+        <br>
+        <div>
+                <p style="font-size: 16px;">© 2025 James Bampton. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
