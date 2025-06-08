@@ -1,0 +1,146 @@
+header {
+        background-color: #3facce;
+        color: rgb(10, 10, 10);
+        padding: 10px;
+        text-align: center;
+        border-radius: 0px;
+        font-size: 22px;
+    }
+
+    header h1 {
+        margin: 10px;
+    }
+
+    nav {
+        background-color: #3facce;
+        color: white;
+        padding: 0px;
+        text-align: center;
+        border-radius: 0px;
+        font-size: 18px;
+        height: 50px;
+        position: sticky;
+        top: 0px;
+        /*make navbar sticky when it reaches zero position */
+    }
+
+    /*.nav-gradient{
+       background-image: linear-gradient(to bottom, rgb(1, 121, 202), rgb(0, 0, 0));
+     }*/
+
+    .item {
+        display: inline-block;
+        color: rgb(254, 254, 255);
+        padding: 10px 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .item:hover {
+        display: inline-block;
+        color: #000;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .images1 {
+        display: inline-block;
+        color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 10px;
+        border: 10px solid #bbb3c2;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .images2 {
+        display: inline-block;
+        color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 10px;
+        border: 10px solid #bbb3c2;
+        border-radius: 10px;
+
+    }
+
+    .images3 {
+        display: inline-block;
+        color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+        border: 10px solid #bbb3c2;
+        border-radius: 10px;
+
+    }
+
+    main p {
+        background-color: #000;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .bio-sum {
+        font-style: italic;
+        color: #ccc;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .center {
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        padding: 0px;
+        background-color: #000;
+        margin: 5%
+    }
+
+    .center p {
+
+        color: white;
+        padding: 0px;
+        background-color: #000;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .footsy {
+        color: rgb(253, 252, 252);
+        padding-top: 75px;
+        text-align: center;
+        background-color: #3facce;
+        height: 160px
+    }
+
+    .form-container {
+        margin: 30px auto;
+        padding: 20px;
+        background-color: rgb(198, 198, 204);
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    .form-container label {
+        text-align: left;
+        background-color: rgb(198, 198, 204);
+        width: 70px;
+        display: inline-block;
+        padding-bottom: 10px;
+        color: black
+    }
+
+    .oneliner {
+        position: relative;
+    }
+
+    a:link {
+        text-decoration: none;
+        /* Remove underline from links, it look ugly */
+    }

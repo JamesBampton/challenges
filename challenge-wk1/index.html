@@ -4,162 +4,19 @@
 <head>
     <meta charset="UTF-8" />
     <title>Portfolio</title>
+
+    <link rel="stylesheet" href="styles/my-styles.css"> <!-- Link to external CSS file -->
+
 </head>
 
 <style>
+    /* Left one style here so show a style section in HTML */
     body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
         background-color: #000;
         font-size: 14px;
-    }
-
-    header {
-        background-color: #3facce;
-        color: rgb(10, 10, 10);
-        padding: 10px;
-        text-align: center;
-        border-radius: 0px;
-        font-size: 22px;
-    }
-
-    header h1 {
-        margin: 10px;
-    }
-
-    nav {
-        background-color: #3facce;
-        color: white;
-        padding: 0px;
-        text-align: center;
-        border-radius: 0px;
-        font-size: 18px;
-        height: 50px;
-        position: sticky;
-        top: 0px;
-        /*make navbar sticky when it reaches zero position */
-    }
-
-    /*.nav-gradient{
-       background-image: linear-gradient(to bottom, rgb(1, 121, 202), rgb(0, 0, 0));
-     }*/
-
-    .item {
-        display: inline-block;
-        color: rgb(254, 254, 255);
-        padding: 10px 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-
-    }
-
-    .item:hover {
-        display: inline-block;
-        color: #000;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .images1 {
-        display: inline-block;
-        color: white;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-right: 10px;
-        border: 10px solid #bbb3c2;
-        border-radius: 10px;
-        margin-bottom: 10px;
-
-    }
-
-    .images2 {
-        display: inline-block;
-        color: white;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-right: 10px;
-        border: 10px solid #bbb3c2;
-        border-radius: 10px;
-
-    }
-
-    .images3 {
-        display: inline-block;
-        color: white;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin: 0px;
-        border: 10px solid #bbb3c2;
-        border-radius: 10px;
-
-    }
-
-    main p {
-        background-color: #000;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        font-size: 18px;
-    }
-
-    .bio-sum {
-        font-style: italic;
-        color: #ccc;
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .center {
-        text-align: center;
-        vertical-align: middle;
-        color: white;
-        padding: 0px;
-        background-color: #000;
-        margin: 5%
-    }
-
-    .center p {
-
-        color: white;
-        padding: 0px;
-        background-color: #000;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .footsy {
-        color: rgb(253, 252, 252);
-        padding-top: 75px;
-        text-align: center;
-        background-color: #3facce;
-        height: 160px
-    }
-
-    .form-container {
-        margin: 30px auto;
-        padding: 20px;
-        background-color: rgb(198, 198, 204);
-        border-radius: 10px;
-        width: 50%;
-    }
-
-    .form-container label {
-        text-align: left;
-        background-color: rgb(198, 198, 204);
-        width: 70px;
-        display: inline-block;
-        padding-bottom: 10px;
-        color: black
-    }
-
-    .oneliner {
-        position: relative;
-    }
-
-    a:link {
-        text-decoration: none;
-        /* Remove underline from links, it look ugly */
     }
 </style>
 
@@ -168,6 +25,7 @@
     <header>
         <br>
         <h1>JAMES BAMPTON <span style="color: #105570; font-size: 16px;">BSc.Hons</span></h1>
+        <!-- Example span element -->
     </header>
 
     <nav>
@@ -180,10 +38,11 @@
 
     <main>
         <br>
+        <br><br><br><br>
         <p class="bio-sum">Welcome to my portfolio! Here you can find information about me and my Hofners.</p>
 
         <div class="center">
-            <h2 id="summary" style="text-align: center; color:rgb(121, 121, 202)">Summary</h2>
+            <h2 id="summary" style="text-align: center; color:#3facce">SUMMARY</h2> <!-- Example in line style -->
             <p style="font-size: 16px;">A degree qualified, DIY and renovation enthusiast with a building trade
                 background and a portfolio highlighting a variety of skills obtained over two decades within the IT
                 industry and renovating properties in the UK and France.
@@ -197,7 +56,7 @@
         </div>
 
         <div id="interests" class="center">
-            <h2 style="text-align: center; color:rgb(121, 121, 202)">Interests</h2>
+            <h2 style="text-align: center; color:#3facce">INTERESTS</h2> <!-- Example in line style -->
             <p style="font-size: 16px;" ;>In my spare time, I keep fit by attending running classes, boxfit classes and
                 gym work. I enjoy music both listening and playing the guitar in a band. I have also restored a classic
                 mini and enjoy tinkering around under the bonnet.
@@ -206,7 +65,7 @@
             </p>
 
             <div id="guitars" class="center">
-                <h2 style="text-align: center; color:rgb(121, 121, 202)">Guitars</h2>
+                <h2 style="text-align: center; color:#3facce">GUITARS</h2> <!-- Example in line style -->
                 <p style="font-size: 16px;" ;>Check out these beautiful Hofner guitars.
                     I have a passion for this style of guitar, know as "Arch Top".Each guitar has its own unique
                     character and sound, making them a joy to play.
@@ -228,7 +87,7 @@
 
     <section>
         <div class="center">
-            <h2 id="contact" style="text-align: center; color:rgb(121, 121, 202)">Contact</h2>
+            <h2 id="contact" style="text-align: center; color:#3facce">CONTACT</h2>
             <p style="font-size: 16px;">Please feel free to email by completing the following form.
             </p>
 
