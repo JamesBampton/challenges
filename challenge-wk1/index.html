@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
     <title>Portfolio</title>
@@ -10,75 +11,87 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #333;
+        background-color: #000;
         font-size: 14px;
-        }
+    }
+
     header {
-        background-color: #bbb3c2;
-        color: white;
+        background-color: #3facce;
+        color: rgb(10, 10, 10);
         padding: 10px;
         text-align: center;
         border-radius: 0px;
         font-size: 22px;
     }
+
     header h1 {
         margin: 10px;
     }
 
     nav {
-        background-color: #797171;
+        background-color: #3facce;
         color: white;
         padding: 0px;
         text-align: center;
         border-radius: 0px;
-        font-size: 20px;
+        font-size: 18px;
+        height: 50px;
+        position: sticky;
+        top: 0px;
+        /*make navbar sticky when it reaches zero position */
     }
+
+    /*.nav-gradient{
+       background-image: linear-gradient(to bottom, rgb(1, 121, 202), rgb(0, 0, 0));
+     }*/
+
     .item {
         display: inline-block;
-        color: white;
+        color: rgb(254, 254, 255);
+        padding: 10px 20px;
         padding-left: 20px;
         padding-right: 20px;
-      
+
     }
 
-     .item:hover {
+    .item:hover {
         display: inline-block;
-        color: rgb(0, 0, 0);
-        background-color: white;
+        color: #000;
         padding-left: 20px;
         padding-right: 20px;
     }
 
-      .images1 {
+    .images1 {
         display: inline-block;
         color: white;
         padding-left: 0px;
         padding-right: 0px;
-        margin-right:10px;
-        border:10px solid #bbb3c2;
-        border-radius: 10px; 
-        margin-bottom:10px;    
-      
-    }
-
-       .images2 {
-        display: inline-block;
-        color: white;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin:0px;
-        border:10px solid #bbb3c2;
+        margin-right: 10px;
+        border: 10px solid #bbb3c2;
         border-radius: 10px;
-      
+        margin-bottom: 10px;
+
+    }
+
+    .images2 {
+        display: inline-block;
+        color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+        border: 10px solid #bbb3c2;
+        border-radius: 10px;
+
     }
 
     main p {
-        background-color: #333;
+        background-color: #000;
         color: white;
         padding: 10px;
         text-align: center;
         font-size: 18px;
     }
+
     .bio-sum {
         font-style: italic;
         color: #ccc;
@@ -91,87 +104,157 @@
         vertical-align: middle;
         color: white;
         padding: 0px;
-        background-color: #333;
-        margin:5%
+        background-color: #000;
+        margin: 5%
     }
 
-     .center p {
-    
+    .center p {
+
         color: white;
         padding: 0px;
-        background-color: #333;
-        margin-left:5%;
-        margin-right:5%;
+        background-color: #000;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
-      .footsy {
-        color: rgb(148, 141, 141);
-        padding: 0px;
+    .footsy {
+        color: rgb(253, 252, 252);
+        padding-top: 75px;
         text-align: center;
+        background-color: #3facce;
+        height: 160px
     }
 
+    .form-container {
+        margin: 30px auto;
+        padding: 20px;
+        background-color: rgb(198, 198, 204);
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    .form-container label {
+        text-align: left;
+        background-color: rgb(198, 198, 204);
+        width: 70px;
+        display: inline-block;
+        padding-bottom: 10px;
+        color: black
+    }
+
+    .oneliner {
+        position: relative;
+    }
+
+    a:link {
+        text-decoration: none;
+        /* Remove underline from links, it look ugly */
+    }
 </style>
 
 <body>
 
     <header>
-    <h1>JAMES BAMPTON <br><span style="color:rgb(121, 121, 202); font-size: 16px;">BSc.Hons</span></h1>
+        <br>
+        <h1>JAMES BAMPTON <span style="color: #105570; font-size: 16px;">BSc.Hons</span></h1>
     </header>
 
-    <nav>   
-        <div class="item">SUMMARY</div>
-        <div class="item">INTERESTS</div>
-        <div class="item">GUITARS</div>
-        <div class="item">CONTACT</div>
+    <nav>
+        <div><a href="#summary" class="item">SUMMARY</a>
+            <a href="#interests" class="item">INTERESTS</a>
+            <a href="#guitars" class="item">GUITARS</a>
+            <a href="#contact" class="item">CONTACT</a>
+        </div>
     </nav>
 
     <main>
         <br>
         <p class="bio-sum">Welcome to my portfolio! Here you can find information about me and my Hofners.</p>
-        
-        <div class="center">
-          <h2 style="text-align: center; color:rgb(121, 121, 202)">Summary</h2>
-          <p style="font-size: 16px;">A degree qualified, DIY and renovation enthusiast with a building trade background and a portfolio highlighting a variety of skills obtained over two decades within the IT industry and renovating properties in the UK and France. 
-            My first ever job was building and installing fireplaces in materials such as Slate, Marble, Stone, Brick and Granite. I decided to re-educate and studied for a Degree in
-            Computing at Portsmouth University. After completing my degree I went straight into a job at IBM. During this 25 year period at IBM, my passion for building never left me. My currnet focus is on learning how to code properly and swing into a career as a full stack
-            developer.
-           </p></div>
-          
-        <div class="center">
-          <h2 style="text-align: center; color:rgb(121, 121, 202)">Interests</h2>
-          <p style="font-size: 16px;";>In my spare time, I keep fit by attending running classes, boxfit classes and gym work. I enjoy music both listening and playing the guitar in a band. I have also restored a classic mini and enjoy tinkering around under the bonnet.
-            I am very interested in graphics design and web design, I designed and created this website and all the graphics and icons within.
-          </p>
 
         <div class="center">
-          <h2 style="text-align: center; color:rgb(121, 121, 202)">Guitars</h2>
-          <p style="font-size: 16px;";>Check out these beautiful Hofner guitars that I have restored. 
-            I have a passion for theis style of guitar, know as "Arch Top".Each guitar has its own unique character and sound, making them a joy to play.
-          </p></div>
+            <h2 id="summary" style="text-align: center; color:rgb(121, 121, 202)">Summary</h2>
+            <p style="font-size: 16px;">A degree qualified, DIY and renovation enthusiast with a building trade
+                background and a portfolio highlighting a variety of skills obtained over two decades within the IT
+                industry and renovating properties in the UK and France.
+                My first ever job was building and installing fireplaces in materials such as Slate, Marble, Stone,
+                Brick and Granite. I decided to re-educate and studied for a Degree in
+                Computing at Portsmouth University. After completing my degree I went straight into a job at IBM. During
+                this 25 year period at IBM, my passion for building never left me. My currnet focus is on learning how
+                to code properly and swing into a career as a full stack
+                developer.
+            </p>
+        </div>
+
+        <div id="interests" class="center">
+            <h2 style="text-align: center; color:rgb(121, 121, 202)">Interests</h2>
+            <p style="font-size: 16px;" ;>In my spare time, I keep fit by attending running classes, boxfit classes and
+                gym work. I enjoy music both listening and playing the guitar in a band. I have also restored a classic
+                mini and enjoy tinkering around under the bonnet.
+                I am very interested in graphics design and web design, I designed and created this website and all the
+                graphics and icons within.
+            </p>
+
+            <div id="guitars" class="center">
+                <h2 style="text-align: center; color:rgb(121, 121, 202)">Guitars</h2>
+                <p style="font-size: 16px;" ;>Check out these beautiful Hofner guitars that I have restored.
+                    I have a passion for this style of guitar, know as "Arch Top".Each guitar has its own unique
+                    character and sound, making them a joy to play.
+                </p>
+            </div>
 
 
-    <div class="images1"><img src="images/loft-7.png" alt="Hofner455"></div>
-    <div class="images2"><img src="images/loft-7.png" alt="Hofner Black Beauty"></div> 
-    
-</main>
-    
+            <div class="images1"><img src="images/loft-7.png" alt="Hofner455">
+                <p>Hofner Congress c.1960 </p>
+            </div>
+            <div class="images2"><img src="images/loft-7.png" alt="Hofner Black Beauty">
+                <p>Hofner Congress c.1963</p>
+            </div>
+            <div class="images2"><img src="images/loft-7.png" alt="Hofner Black Beauty">
+                <p>Hofner 455 c.1958</p>
+            </div>
+
+    </main>
+
     <section>
         <div class="center">
-                      <h2 style="text-align: center; color:rgb(121, 121, 202)">Contact</h2>
-          <p style="font-size: 16px;">Please feel free to email by competing the following form.
-           </p></div>
+            <h2 id="contact" style="text-align: center; color:rgb(121, 121, 202)">Contact</h2>
+            <p style="font-size: 16px;">Please feel free to email by completing the following form.
+            </p>
+
+            <div class="form-container">
+                <div class="oneliner">
+
+                    <form action="submit.php" method="post">
+
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                        <br>
+                        <label for="password">Message:</label>
+                        <input type="password" name="password" id="password">
+                        <br>
+                        <br>
+                        <input type="button" value="Message">
+
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </section>
 
     <article></article>
-    
+
     <footer class="footsy">
 
         <br>
         <div>
-                <p style="font-size: 16px;">© 2025 James Bampton. All rights reserved.</p>
+            <p style="font-size: 16px;">© 2025 James Bampton. All rights reserved.</p>
         </div>
     </footer>
 
 </body>
+
 </html>
